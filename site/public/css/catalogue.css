@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    font-size: 200%;
+}
+
+.row p{
+    flex-direction: row;
+    width: 100%;
+    font-size: 3vw;
+}
+
+.produit{
+    width: 25%;
+    text-align: center;
+}
+
+.icon{
+    width: 50%;
+    border-radius: 20%;
+}
+
+button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 9%;
+    width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

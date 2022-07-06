@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: teal;
+}
+
+.titre {
+margin-left: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+header {
+background-color: teal;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+}
+
+footer {
+position: relative;
+margin-left: -2%;
+margin-bottom: -2%;
+margin-right: -2%;
+width: 102.55%;
+background-color: black;
+color: white;
+text-align: center;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+h2 {
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bouton {
+background-color: teal;
+color: white;
+font: 1.2em "Fira Sans", sans-serif;
+text-transform: uppercase;
+}
+
+.bouton:hover {
+background-color:black;
+color: white;
+}
+
+.informations {
+  border: 3px solid teal;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding-bottom: 1%;
+}
+
+.navicon {
+position: absolute;
+right: 3%;
+top: 2%;
+width: 6%;
+text-align: center;
+text-decoration: none;
+color: black;
+border: 3px solid black;
+padding: 5px;
+background-color: white;
+height: 20px;
+}
+
+.navicon2 {
+position: absolute;
+right: 11%;
+top: 2%;
+height: 20px;
+justify-content: center;
+text-decoration: none;
+color: black;
+border: 3px solid black;
+padding: 5px;
+background-color: white;
+}
+
+.choix {
+text-decoration: none;
+text-align: center;
+}  

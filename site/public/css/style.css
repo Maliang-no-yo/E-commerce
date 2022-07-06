@@ -1,0 +1,195 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  margin-top: 3%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: teal;
+  }
+
+.active {
+    background-color: gray;
+  }
+
+.titre {
+  margin-left: 8%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  }
+
+header {
+  background-color: teal;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.champ {
+    height: 5%;
+    width: 80%;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+h2 {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bouton {
+  background-color: teal;
+  color: white;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.bouton:hover {
+  background-color:black;
+  color: white;
+}
+
+.informations {
+    border: 3px solid teal;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-bottom: 1%;
+}
+
+.navicon {
+    position: absolute;
+    right: 14%;
+    top: 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: white;
+    height: 20px;
+}
+
+.navicon2 {
+  position: absolute;
+  right: 11%;
+  top: 2%;
+  height: 20px;
+  width: 1.5%;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+.navicon3 {
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    height: 20px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: white;
+  }
+
+  .navicon_admin {
+    position: absolute;
+    right: 45%;
+    top: 2%;
+    height: 20px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: white;
+  }
+
+.jh {
+  position: absolute;
+  left: 1%;
+  top: 2%;
+  height: 60%;
+  width: 7%;
+}
+
+.choix {
+  text-decoration: none;
+  text-align: center;
+}
+
+.panier {
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 1%;
+}
+
+.catalogue {
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1;
+  margin-bottom: 10%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  background-color: lightgray;
+  line-height: 2.5;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.pan_link {
+  text-decoration: none;
+  color: teal;
+}

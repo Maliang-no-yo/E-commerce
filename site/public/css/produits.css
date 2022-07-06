@@ -1,0 +1,46 @@
+.infos {
+    margin-left: 1%;
+    margin-right: 5%;
+    text-align: justify;
+    margin-top: 12%;
+    margin-bottom: 10%;
+  }
+
+.presentation {
+  width: 34%;
+  height: 80%;
+  margin-left : 5%;
+  margin-top: 12%;
+  margin-bottom: 10%;
+}
+
+.all {
+  display: flex;
+}
+
+.prix {
+  font-size: larger;
+  color: teal;
+}
+
+.restant {
+  color: gray;
+  font-style: italic;
+  font-size: smallers;
+}
+
+h2 {
+  background-color: gray;
+}
+
+.bouton {
+  background-color: teal;
+  color: white;
+  font: 1.2em "Fira Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.bouton:hover {
+  background-color:black;
+  color: white;
+}
